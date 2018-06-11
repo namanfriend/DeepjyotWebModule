@@ -1,0 +1,31 @@
+
+.parentDiv  div {
+	font-size: 9px;	
+	color: black;
+}
+
+.parentDiv {
+	min-height: 181px;
+	max-height: 181px;
+	width: 100%;
+}
+
+td {
+	border: 1px solid black;
+	border-radius: 9px;
+	
+}
+
+.childDiv {
+	width: 100%
+}
+
+.parentDiv  > table > tr > td  {
+	border: 0px solid red;
+	margin: 0px;
+}
+
+rightAlignDiv{
+	float: right;
+	padding-left: 11px;
+}
