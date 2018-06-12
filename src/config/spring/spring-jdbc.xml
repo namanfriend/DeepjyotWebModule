@@ -11,7 +11,7 @@
 	<bean id="dataSource"
 		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
 		<property name="driverClassName" value="org.sqlite.JDBC" />
-		<property name="url" value="jdbc:sqlite:J:\DipjyotWorkspace\DB\DJ.db" />		
+		<property name="url" value="jdbc:sqlite:D:\Projects\Deepjyot\DB\DJ.db" />		
 	</bean>
 	
 	<bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
